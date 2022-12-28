@@ -95,4 +95,4 @@ Resources:
         Value: 
           !Join 
             - ','
-            - !Ref'SubnetIds'
+            - !Ref 'SubnetIds'
