@@ -53,8 +53,8 @@ Resources:
       Description: The name of the sample configuration template.
       OptionSettings:
       - Namespace: aws:elasticbeanstalk:environment
-        OptionName: LoadBalancerType
-        Value: application
+        OptionName: EnviromentType
+        Value: LoadBalanced
       - Namespace: aws:elasticbeanstalk:environment
         OptionName: ServiceRole
         Value: !Ref 'EBTrustRole'
